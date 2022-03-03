@@ -1,0 +1,168 @@
+.hero img {
+    max-width: 400px;
+    height: auto;
+}
+
+.box img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 8px;
+    border: solid #3882f6 3px;
+    border-radius: 12px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.divone {
+    background-color: #1f2937; 
+    padding: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.herotitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.herosubtext, a {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 8px;
+}
+
+.herotext {
+    max-width: 500px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    gap: 48px;
+}
+
+.infotitle {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0 64px;
+    gap: 52px;
+    margin: 32px;
+}
+
+.box {
+    width: 200px;
+    text-align: center;
+    gap: 8px;
+}
+
+.divthree {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin-bottom: 8px;
+}
+
+.quotebox {
+    max-width: 1000px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotesrc {
+    color: #1f2937;
+    text-align: right;
+    font-weight:bold;
+}
+
+.divfour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prompt {
+    background-color: #3882f6;
+    padding: 32px 64px;
+    border-radius: 6px;
+    margin: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 16px;
+    width: 1000px;
+}
+
+.prompttitle {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.buttontwo {
+    border: solid white 2px;
+    border-radius: 12px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+}
